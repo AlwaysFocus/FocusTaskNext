@@ -1,16 +1,18 @@
 import Link from 'next/link'
+import Head from 'next/head'
+import Layout from '../../components/layout'
+
 export default function GithubSearch()
 {
     
 
     return(
+        
         <div>
-        <article className="bg-green-300"> Hello!</article>
-        <Link href="/">
-            <a>
-                Go Home
-            </a>
-        </Link>
+            <Head>
+                <title>Search for User Projects</title>
+            </Head>
+            <Layout></Layout>
         </div>
     )
 }
